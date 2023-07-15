@@ -1,19 +1,21 @@
+/* HTML page body margin, font family, size, weight */
 body {
     margin: 0px;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-font-family: Inter;
-
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
 }
 
-#HeadNav{
-    background-color: black; 
-    width: 100%; 
-    color: white; 
+/* Navbar with black background, 100% width, text color white and padding */
+#HeadNav {
+    background-color: black;
+    width: 100%;
+    color: white;
     padding: 10px;
 }
 
+/* Learn more Button css of color, background, padding, font etc. */
 #button1 {
     background-color: black !important;
     padding: 5px;
@@ -26,58 +28,57 @@ font-family: Inter;
     line-height: normal;
 }
 
+/* Image with ramdom height and automatic width to maintain aspect ratio */
 #img1 {
     height: 200px;
     width: auto;
 }
 
+/* Table border and width of page width i.e. 100% */
 #table1 {
-    border: 2px solid #000;
+    border: 2px solid black;
     width: 100%;
 }
 
-#table1 tr {
-    padding: 15px !important;
-}
-
+/* Font, padding and border to table header cells*/
 table,
 th,
 thead td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 15px;
-    /* border-spacing: 5px; */
     font-family: Montserrat;
-
-
 }
 
+/* Given vertical border and padding to table cells */
 tr td {
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-collapse: collapse;
     padding: 15px;
     padding-left: 50px;
-    /* border-spacing: 5px; */
 }
-tfoot{
-    background: #000;
+
+/* Table footer with black background and text color white */
+tfoot {
+    background: black;
     color: white;
 }
 
+/* Overall page padding given */
 main {
     padding: 15px;
 }
-.snoCol{
+
+/* SNo column aligned to center */
+.snoCol {
     text-align: center;
     padding-left: 15px;
 }
 
 
-h1, h2{
-    font-size: 64px;
+/* h1 h2 headings font weight changed to 400 from bold*/
+h1,
+h2 {
     font-weight: 400;
-    line-height: 77px;
-    letter-spacing: 0em;
-    text-align: left;
 }
